@@ -1,0 +1,127 @@
+html,body{
+	margin:0;
+	padding: 0;
+
+}
+
+*,div{
+	margin: 0;
+	padding: 0;
+
+}
+.body_container{
+	width: 100%;
+	height: 100%;
+}
+/*top container styles*/
+.top_container{
+	width: 100%;
+	height: 9vh;
+	background-color: #353636;
+}
+.picture_text{
+	color: white;
+	padding-left: 15%;
+	padding-top: 2%;
+	font-size: 20px;
+	font-family: Verdana;
+}
+/*bottom container styles*/
+.bottom_container{
+	width: 100%;
+	height: 91vh;
+	background-color: lightblue;
+}
+.left_container{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+.browse{
+	height: 350px;
+	width: 250px;
+	margin-left: 15%;
+	margin-top: 25%;
+}
+.browse_top{
+	height: 280px;
+	width: 250px;
+	background-color:  #353636;
+}
+.browse_bottom{
+	height: 70px;
+	width: 250px;
+	background-color:#00AAD9; 
+	cursor: pointer;
+}
+.browse_bottom_left{
+	width: 60%;
+	float: left;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: Verdana;
+	padding-top: 10%;
+	padding-left: 8%;
+}
+.browse_bottom_right{
+	width: 32%;
+	float: right;
+	padding-top: 3%;
+}
+.right_container{
+	width: 70%;
+	height: 100%;
+	float: right;
+}
+
+.right_top_container{
+    width:100%;
+	height: 50%;
+    font-family: Verdana;
+
+}
+
+.name{
+   padding-top: 15%;
+}
+
+input[type="text"]{
+   margin-left:15px;
+   border-style: none;
+   background-color: lightblue;
+   /*border-bottom: 1px solid #00AAD9;*/
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.right_bottom_container{
+	width:100%;
+	height: 50%;
+}
+.upload_button{
+    text-transform: uppercase;
+    background-color: #00AAD9;
+    height: 40px;
+    width: 80px;
+    border-style: none;
+    color: #ffffff;
+    cursor: pointer;
+    transform: translateY(4px);
+    /*box-shadow: -webkit-box-shadow: -1px 0px 9px 2px rgba(0,0,0,0.75);
+                -moz-box-shadow: -1px 0px 9px 2px rgba(0,0,0,0.75);
+                 box-shadow: -1px 0px 9px 2px rgba(0,0,0,0.75);*/
+    margin-left: 20%;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 767px){
+	.left_container{
+	width: 100%;
+	height: 100%;
+}
+.right_container{
+	width: 100%;
+	height: 100%;
+}
+
+}

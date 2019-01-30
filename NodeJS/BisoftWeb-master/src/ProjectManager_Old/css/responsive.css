@@ -1,0 +1,1587 @@
+/*--------- For Large Desktop Device -----------*/
+
+/* 1440 to 1599 */
+@media only screen and (min-width:1440px){
+#connect .inner {
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+#connect .bt-footer {
+  bottom: 0;
+ 
+  left: 0;
+  position: fixed;
+  right: 0;
+}
+#connect .subcontent {
+    min-height: 661px;
+} 
+}
+
+/* 1600 to 1679 */
+@media only screen and (min-width:1600px){
+
+}
+
+/* 1680 to 1919 */
+@media only screen and (min-width:1680px){
+  
+}
+
+/* 1920 to 2047 */
+@media only screen and (min-width:1920px){
+  
+}
+
+/* 2048 to 2559 */
+@media only screen and (min-width:2048px){ 
+  
+}
+
+/* grater then 2560 */
+@media only screen and (min-width:2560px){
+  
+}
+
+
+/*--------- For Tablate and Small Desktop Device -----------*/
+
+@media only screen and (max-width:1380px){
+  #product .product-detail h1 {
+  width: 36%;
+}
+#product .product-detail input {
+  width: 64%;
+}
+#project {
+ height: inherit;
+ overflow: inherit;  
+ }  
+}
+/* For 1280 or Up to 1365 */
+@media only screen and (max-width:1365px){
+#content .list ul li {
+  width: 18.8%;
+}
+#product .left-area {
+  width: 50%;
+  height: 62vh;
+}
+
+#product .right-area {
+  width: 45%;
+}
+#bluetooth .left {
+  width: 49.7%;
+}
+}
+
+/* For 1024 or Up to 1279 */
+@media only screen and (max-width:1440px){
+  #product .product-detail h1 {
+  width: 40%;
+}
+#product .product-detail input {
+  width: 60%;
+}
+.home #content {
+  padding: 82px 5% 54px;
+}
+#content .list ul li {
+  margin: 0 1% 28px;
+  width: 18%;
+}
+#content .list ul li a h1 span {
+  font-size: 15px;
+  line-height: 15px;
+}
+#content .list ul li a h1 {
+  font-size: 13px;
+  line-height: 16px;
+  padding: 8px 8px 17px;
+}
+.button {
+  font-size: 22px;
+}
+#product .product-detail .left {
+  margin-right: 10%;
+  width: 30%;
+}
+
+.numberpad a {
+  border: 7px solid #4d4d4d;
+}
+.numberpad a.b {
+  line-height: 111px;
+  width: 117px;
+}
+.numberpad a.c {
+  line-height: 114px;
+  top: 170px;
+  width: 115px;
+}
+.numberpad a.a {
+  line-height: 107px;
+  width: 102px;
+}
+.numberpad a.d {
+  line-height: 94px;
+  width: 95px;
+}
+span.chanel {
+  bottom: 2%;
+  font-size: 50px;
+  left: 42%;
+  line-height: 50px;
+  padding: 5px 0px;
+  position: fixed;
+  width: 200px;
+}
+#connect .inner {
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+#connect .bt-footer {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+}
+#connect .subcontent {
+    min-height: 661px;
+}
+
+}
+
+/* For 960 or Up to 1023 */
+@media only screen and (max-width:1023px){
+  #product .product-detail h1 {
+  width: 53%;
+}
+#product .product-detail input {
+  width: 47%;
+}
+
+.search input {
+  padding: 0 14px;
+}
+.new-button {
+  padding: 17px 75px 12px;
+}
+#bluetooth .left {
+  width: 49.6%;
+}
+.scroll {
+  margin-right: 15px;
+}
+
+/*.remoteinner .left,
+.remoteinner .right{
+  width:100%;
+  float:none;
+}*/
+.remoteinner .left{
+  margin-bottom:20px;
+  padding-bottom:20px;
+}
+.numberpad {
+  max-width: 520px;
+}
+.remoteinner .scroll {
+  margin-right: 10px;
+}
+#content .list ul li a h1 {
+  line-height: 13px;
+  padding: 8px 8px 15px;
+}
+}
+
+/* For 800 or Up to 959 */
+@media only screen and (max-width:959px){
+.home #content {
+  padding: 55px 3% 54px;
+}
+#content .list ul li a h1 {
+  font-size: 11px;
+  line-height: 13px;
+  padding: 8px 6px 15px;
+}
+#content .list ul li a h1 span {
+  font-size: 12px;
+  line-height: 13px;
+}
+.search input {
+  width: 73%;
+}
+.new-button {
+  padding: 15px 7% 15px;
+}
+.button {
+  font-size: 19px;
+  padding-left: 40px;
+}
+#product .product-detail .left {
+  margin-right: 8%;
+  width: 37%;
+}
+.product-detail p {
+  font-size: 21px;
+  line-height: 24px;
+}
+.numberpad a.b {
+  left: 20%;
+  line-height: 111px;
+  top: 51px;
+  width: 117px;
+}
+.scroll {
+  margin-right: 5px;
+}
+.numberpad a.a {
+  line-height: 107px;
+  width: 102px;
+}
+.numberpad a.c {
+  line-height: 114px;
+  width: 115px;
+}
+span.chanel {
+  width: 186px;
+}
+}
+
+/* For 768 or Up to 799 */
+@media only screen and (max-width:799px){
+#content .list ul li a h1 {
+  font-size: 14px;
+  line-height: 17px;
+  padding: 8px 6px 18px;
+}
+#header .menu ul li a {
+  width: 200px;
+}
+.home #content {
+  padding: 55px 2% 54px;
+}
+#content .list ul li a h1 span {
+  font-size: 13px;
+}
+.search input {
+  width: 71%;
+}
+.new-button {
+  font-size: 20.3px;
+}
+#product .product-detail .left {
+  margin-right: 5%;
+}
+#bluetooth .left {
+  border-right: 5px solid #8fabb1;
+}
+#bluetooth .right {
+  width: 49.6%;
+}
+.vol.vup::before {
+  left: -70px;
+  top: 46px;
+}
+.vol.vprev::before {
+  bottom: -95px;
+  left: 80px;
+}
+.vol.vnext::before {
+  top: -106px;
+}
+.vol.vdown::before {
+  bottom: 50px;
+  right: -66px;
+}
+.navgroup {
+  height: 370px;
+  width: 370px;
+}
+#content .list ul li {
+  width: 23%;
+}
+.navigation-inner {
+  height: 200px;
+  width: 200px;
+}
+.navigation-inner .stop-nav a {
+  height: 75px;
+  width: 75px;
+}
+.stop-nav img {
+  margin: 21px auto;
+}
+.navigation {
+  margin-left: 5px;
+}
+span.chanel {
+  left: 39%;
+}
+
+
+}
+
+
+/*--------- For Tablate and Mobile Device -----------*/
+
+
+/* For 640 or Up to 767 */
+@media only screen and (max-width:767px){
+  .menu {
+  position:relative;
+}
+.menu .toggle-menu {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+#header .menu ul {
+    left: -560px;
+    position: absolute;
+    top: 74px;
+    z-index: 9999;
+}
+#header .menu ul.active{
+  left:-80px;
+  z-index: 9999;
+}
+#header .menu ul li a {
+  width: 160px;
+}
+#content .list ul li {
+  width: 23%;
+}
+#content .list li:nth-child(5n) {
+  margin-right: 1%;
+}
+.search input {
+  font-size: 19px;
+  line-height: 20px;
+  width: 61%;
+}
+.search input, .search button {
+  height: 50px;
+}
+.new-button {
+  padding: 12px 7%;
+  font-size:18px;
+}
+span.chanel {
+  left: 33%;
+  bottom: 8%;
+}
+/*#product .left-area {
+  width: 50%;
+}
+#product .right-area {
+  width: 45%;
+}
+#product .product-detail h1 span {
+  padding: 0 16px 5px;
+  widdth:63%;
+}
+#product .product-detail h1 {
+  font-size: 16px;
+}
+.product-detail p {
+  font-size: 16px;
+  line-height: 19px;
+}
+#product .right-area {
+  padding-top: 59px;
+}*/
+#product .left-area {
+  float: none;
+  width: 95%;
+  margin:0 auto;
+  height: auto;
+  overflow: hidden;
+ 
+}
+#product .right-area {
+  float: none;
+  width: 96%;
+  margin: 0 auto;
+  padding-top: 40px;
+  
+}
+#product .product-detail h1 span {
+  width: 100%;
+}
+#product .product-detail .left {
+  float: none;
+  margin-right: 8%;
+  width: 100%;
+}
+#bluetooth .left {
+  border-right: 0 ;
+  width: 100%;
+}
+#bluetooth .right {
+  width: 100%;
+}
+
+.navgroup {
+  height: 250px;
+  width: 250px;
+}
+.navigation-inner {
+height: 140px;
+margin: 50px auto;
+width: 140px;
+}
+.vol.vup {
+  margin-left: -22px;
+}
+.vol.vup::before {
+  left: -54px;
+  top: 34px;
+}
+.vol.vprev {
+  margin-top: -22px;
+}
+.vol.vprev::before {
+  bottom: -67px;
+  left: 52px;
+}
+.vol.vnext {
+  margin-top: -22px;
+}
+.vol.vdown {
+  margin-left: -22px;
+}
+.navgroup .vol {
+  height: 49px;
+  width: 44px;
+}
+.vol.vnext::before {
+  right: 53px;
+  top: -73px;
+  transform: rotate(45deg);
+}
+.vol.vdown::before {
+  bottom: 32px;
+  right: -51px;
+}
+.navigation-inner .stop-nav a {
+  height: 65px;
+  width: 65px;
+  margin: 38px auto;
+}
+.stop-nav img {
+  margin: 17px auto;
+}
+.numberpad a.b {
+  line-height: 90px;
+  width: 90px;
+}
+.numberpad a.a {
+  line-height: 75px;
+  width: 75px;
+  top:158px;
+}
+.numberpad a.c {
+  line-height: 85px;
+  width: 85px;
+  top:160px;
+}
+.numberpad a.d {
+  line-height: 75px;
+  width: 75px;
+  top:261px;
+}
+.scroll {
+  height: 305px;
+}
+#slider-vertical {
+  height: 300px;
+}
+.navigation {
+  margin-top: 50px;
+}
+
+#project {
+  height: inherit;
+ }
+#content .list ul li a h1 {
+  font-size: 13px;
+  line-height: 15px;
+  padding: 8px 6px 16px;
+}
+}
+@media only screen and (max-width:693px){
+  .menu {
+  position:relative;
+}
+.menu .toggle-menu {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+#header .menu ul {
+    left: -560px;
+    position: absolute;
+    top: 74px;
+    z-index: 9999;
+}
+#header .menu ul.active{
+  left:-80px;
+  z-index: 9999;
+}
+#content .list ul li a h1 {
+  font-size: 12px;
+  line-height: 12px;
+  padding: 8px 6px 15px;
+}
+#content .list ul li a h1 span {
+  font-size: 14px;
+  line-height: 15px;
+}
+}
+@media only screen and (max-width:660px){
+
+}
+
+
+/* For 540 or Up to 639 */
+@media only screen and (max-width:639px){
+  .menu {
+  position:relative;
+}
+.menu .toggle-menu {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+#header .menu ul {
+    left: -560px;
+    position: absolute;
+    top: 74px;
+    z-index: 9999;
+}
+#header .menu ul.active{
+  left:-80px;
+  z-index: 9999;
+}
+#header .menu ul li a {
+  width: 125px;
+}
+#content .list ul li {
+  width: 31%;
+}
+#content .list ul li a h1 {
+  font-size: 13px;
+  line-height: 14px;
+  padding: 8px 6px 13px;
+}
+#content .list ul li a h1 span {
+
+  line-height: 16px;
+}
+.search input {
+  padding: 0 10px;
+  font-size: 16px;
+}
+.new-button {
+    font-size: 16px;
+  padding: 12px 6%;
+}
+.button.upload,.button.explore,.button {
+  font-size: 16px;
+  padding-left: 30px;
+}
+/*#product .product-detail h1 span {
+  width: 65%;
+}
+#product .product-detail .left {
+  margin-right: 0;
+  width: 90%;
+}*/
+.tabcontent h3.subhead {
+  font-size: 17px;
+}
+.subcontent {
+  min-height: 300px;
+}
+.bt-footer {
+  height: auto;
+}
+.bt-footer ul li a {
+  font-size: 18px;
+}
+/*#bluetooth .right {
+  width: 49.3%;
+}*/
+.numberpad a.b {
+  line-height: 60px;
+  width: 60px;
+  font-size:40px;
+}
+.numberpad a.a {
+  line-height: 55px;
+  top: 128px;
+  width: 55px;
+  font-size:36px;
+}
+.numberpad a.c {
+  line-height: 55px;
+  top: 122px;
+  width: 55px;
+  font-size: 41px;
+}
+.numberpad a.d {
+  font-size: 38px;
+  line-height: 50px;
+  top: 201px;
+  width: 50px;
+}
+.numberpad {
+  margin-left: 5px;
+}
+.navigation {
+  margin-top: 30px;
+  margin-left: 7px;
+}
+.scroll {
+  margin-right: 10%px;
+  padding: 15px 25px;
+  height:225px;
+}
+#slider-vertical {
+  height: 222px;
+}
+#slider-vertical .handle {
+  height: 16px;
+  left: -15px;
+  width: 37px;
+}
+span.chanel {
+  bottom: 20%;
+  left: 41%;
+}
+}
+
+/* For 480 or Up to 539 */
+@media only screen and (max-width:539px){
+  .menu {
+  position:relative;
+}
+.menu .toggle-menu {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+#header .menu ul {
+    left: -460px;
+    position: absolute;
+    top: 74px;
+    z-index: 9999;
+}
+#header .menu ul.active{
+  left:-80px;
+  z-index: 9999;
+}
+.options .tabmenu > ul li a {
+  padding: 63px 0 0;
+  width: 111px;
+}
+#header .menu ul li a {
+  width: 105px;
+} 
+#content .list ul li a h1 span {
+  font-size: 13px;
+  line-height: 13px;
+}
+#content .list ul li a h1 {
+  font-size: 11px;
+  line-height: 12px;
+    padding: 8px 6px 14px;
+}
+#content .list ul li {
+  width: 31.3%;
+}
+.search input {
+  margin-left: 10px;
+  width: 78%;
+}
+.new-button {
+  padding: 12px 3%;
+}
+/*#product .left-area { 
+  float: none;
+  width: 95%;
+  margin:0 auto;
+}
+#product .right-area {
+  float: none;
+  width: 96%;
+  margin: 0 auto;
+}
+#product .product-detail h1 span {
+  width: 51%;
+}*/
+.tabcontent h3.subhead {
+  font-size: 14px;
+}
+.options h2 {
+  font-size: 17px;
+}
+.bt-footer ul li a {
+  font-size: 16px;
+  padding: 15px 0;
+}
+.search input {
+  width: 58%;
+}
+
+
+
+
+
+/*new fixed design*/
+.remoteinner .left, .remoteinner .right {
+  width: 50%;
+}
+.remoteinner h3.subhead {
+  font-size: 12px;
+  padding: 5px 0;
+}
+.navigation {
+  margin-top: 10px;
+}
+.navgroup {
+  height: 175px;
+  width: 175px;
+}
+.vol.vup::before {
+  left: -18px;
+  top: 15px;
+}
+.vol.vprev::before {
+  bottom: -44px;
+  left: 43px;
+}
+.vol.vnext::before {
+  right: 43px;
+  top: -46px;
+}
+.vol.vdown::before {
+  bottom: 23px;
+  right: -24px;
+}
+.navgroup .vol {
+  height: 50px;
+  width: 50px;
+}
+.vol.vdown {
+  margin-left: -24px;
+}
+.vol.vup {
+  margin-left: -24px;
+}
+.vol.vprev {
+  margin-top: -24px;
+}
+.vol.vnext {
+  margin-top: -24px;
+}
+.navigation-inner {
+  height: 65px;
+  width: 65px;
+  margin: 50px auto;
+}
+.navigation-inner .stop-nav a {
+  height: 30px;
+  width: 30px;
+  margin: 18px auto;
+}
+.stop-nav img {
+  margin: 7px auto;
+  width: 15px;
+}
+.numberpad a.d {
+  line-height: 37px;
+  width: 37px;
+  font-size: 28px;
+  left: 18%;
+  top: 110px;
+}
+.numberpad a.a {
+  line-height: 39px;
+  width: 40px;
+  left: 0;
+  top: 65px;
+  font-size: 28px;
+}
+.numberpad a.c {
+  line-height: 40px;
+  width: 42px;
+  font-size: 30px;
+  left: 34%;
+  top: 60px;
+}
+.numberpad a.b {
+  left: 15%;
+  line-height: 42px;
+  top: 12px;
+  width: 45px;
+  font-size: 30px;
+}
+.scroll {
+  height: 175px;
+  margin-top: 10px;
+  padding: 15px 25px;
+}
+#slider-vertical .handle {
+  height: 18px;
+  left: -11px;
+  width: 30px;
+}
+#slider-vertical {
+  height: 180px;
+}
+
+span.chanel {
+  bottom: inherit;
+  left: 41%;
+  top: 46%;
+}
+/*ends*/
+
+/*css for chrome*/
+.chrome .new-button {
+    padding: 12px 2%;
+}
+
+
+}
+
+/* For 380 or Up to 479 */
+@media only screen and (max-width:479px){
+
+.menu {
+  position:relative;
+}
+.menu .toggle-menu {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+#header .menu ul {
+  left: -456px;
+  position: absolute;
+  top: 74px;
+}
+#header .menu ul li a {
+  border-bottom: 1px solid #1393b6;
+  border-left: 0 none;
+  width: 190px;
+  height: 50px;
+  line-height: 50px;
+}
+#content .list ul li a h1 {
+  font-size: 14px;
+  line-height: 17px;
+  padding: 8px 6px 18px;
+}
+#content .list ul li a h1 span {
+  font-size: 14px;
+  line-height: 15px;
+}
+#header .menu ul.active{
+  left:-80px;
+  z-index: 9999;
+}
+#header .menu ul li a {
+  width: 126px;
+}
+#content .list ul li {
+  width: 48%;
+}
+.search {
+  margin: 0 auto 10px;
+  width: 98%;
+  float:none;
+  background: rgba(0, 0, 0, 0.25) none repeat scroll 0 0;
+}
+.search input, .search button {
+  background: transparent;
+}
+.search input {
+  margin-left: 0;
+  width: 77%;
+}
+.new-button {
+  padding: 15px 0;
+  text-align: center;
+  width: 98%;
+  margin: 0 auto;
+  font-size: 21px;
+  float:none;
+}
+
+.options .tabmenu ul {
+  width: 96%;
+}
+.options .tabmenu > ul li a {
+  width: 90px;
+}
+.numberpad {
+  margin-left: 5%;
+}
+.scroll {
+  margin-right: 5%;
+}
+#product .product-detail h1 span {
+  width: 100%;
+}
+#product .product-detail h1 {
+  width: 98%;
+  margin: none!important;
+}
+#product .product-detail input {
+  width: 98%;
+  border: none!important;
+  margin: none!important;
+}
+.product-detail p {
+  font-size: 18px;
+ }
+ .navgroup {
+  height: 350px;
+  width: 90%;
+}
+.vol.vup::before {
+  left: -63px;
+  top: 45px;
+ }
+ .navgroup .vol::before {
+  height: 88%;
+ }
+ .vol.vprev::before {
+  bottom: -96px;
+  left: 77px;
+ }
+ .vol.vnext::before {
+  right: 66px;
+  top: -89px;
+ }
+ .vol.vdown::before {
+  bottom: 48px;
+  right: -63px;
+ }
+ .navigation-inner {
+  height: 195px;
+  margin: 73px auto;
+  width: 58%;
+}
+.navigation-inner .stop-nav a {
+  margin: 48px auto;
+ }
+ .numberpad {
+  margin-left: 0;
+}
+.numberpad a.b {
+  left: 15%;
+  line-height: 111px;
+  top: 51px;
+  width: 117px;
+}
+.numberpad a.c {
+  line-height: 105px;
+  width: 30%;
+  top: 170px;
+  left: 36%;
+}
+.numberpad a.a {
+  line-height: 91px;
+  width: 26%;
+  left: 2%;
+  top: 181px;
+}
+.numberpad a.d {
+  line-height: 94px;
+  width: 27%;
+  left: 19%;
+  top: 290px;
+}
+.remoteinner .scroll {
+  margin-right: 5%;
+}
+.search button {
+  float: right;
+}
+.navigation-inner .stop-nav a {
+  margin: 58px auto;
+}
+
+
+.navgroup {
+  height: 180px;
+  width: 180px;
+  max-width: 180px;
+  border:5px solid #4d4d4d;
+  margin: 0px;
+}
+.navigation-inner {
+  height: 84px;
+  margin: 43px auto;
+  width: 47%;
+}
+.navigation-inner .stop-nav a {
+  height: 45px;
+  margin: 20px auto;
+  width: 45px;
+}
+.stop-nav img {
+  margin: 14px auto;
+}
+.navgroup .vol {
+height: 42px;
+width: 42px;
+background-size: 15px;
+}
+.vol.vup,
+.vol.vdown {
+  margin-left: -20px;
+}
+.vol.vprev,
+.vol.vnext {
+  margin-top: -20px;
+}
+.navgroup .vol::before {
+  height: 100%;
+}
+.vol.vup::before {
+  left: -32px;
+  top: 23px;
+}
+.vol.vprev::before {
+  bottom: -46px;
+  left: 40px;
+}
+.vol.vnext::before {
+right: 40px;
+top: -49px;
+}
+.vol.vdown::before {
+  bottom: 24px;
+  right: -30px;
+}
+.scroll {
+  padding: 15px 10px;
+}
+#slider-vertical .handle {
+  height: 18px;
+  left: -5px;
+  width: 18px;
+}
+.numberpad a.a {
+  left: 38%;
+  top: 65px;
+  border-width: 3px;
+  line-height: 40px;
+  width: 40px;
+}
+.numberpad a.b {
+  left: 38%;
+  top: 16px;
+  border-width: 3px;
+  line-height: 40px;
+  width: 40px;
+}
+.numberpad a.c {
+  left: 38%;
+  top: 114px;
+  border-width: 3px;
+  line-height: 40px;
+  width: 40px;
+}
+.numberpad a.d {
+  left: 38%;
+  top: 163px;
+  border-width: 3px;
+  line-height: 40px;
+  width: 40px;
+}
+
+}
+@media only screen and (max-width:380px){
+span.chanel {
+  bottom: inherit;
+  left: 36%;
+  top: 51%;
+  width: 150px;
+  font-size: 45px;
+  line-height: 45px;
+}
+}
+
+/* For 360 or Up to 379 */
+@media only screen and (max-width:379px){
+
+.options .tabmenu > ul li a {
+  width: 85px;
+}
+.bt-footer ul li a {
+  font-size: 14px;
+}
+#content .list ul li a h1 {
+  font-size: 13px;
+  line-height: 13px;
+    padding: 8px 6px 17px;
+}
+#content .list ul li a h1 span {
+  font-size: 15px;
+  line-height: 17px;
+}
+#product .product-detail h1 span {
+  width: 60%;
+}
+.product-detail p {
+  line-height: 19px;
+}
+span.chanel {
+  bottom: inherit;
+  top: 55%;
+ 
+}
+}
+
+/* For 320 or Up to 359 */
+@media only screen and (max-width:359px){
+.search input {
+  width: 68%;
+}
+.options .tabmenu > ul li a {
+  width: 76px;
+}
+#connect .heading, #remote .heading {
+  margin-left: 22px;
+}
+.bt-footer ul li a {
+  font-size: 12px;
+}
+#product .product-detail h1 span {
+  width: 87%;
+  padding: 0 18px 9px;
+}
+#product .product-detail h1 {
+  margin: 0!important;
+}
+.product-detail p {
+  padding-left: 0;
+}
+.headright {
+  margin: 12px 10px 9px 0;
+}
+#connect .heading img, #remote .heading img {
+  margin-left: 10px;
+}
+}
+/* 320 */
+@media only screen and (max-width:319px){
+#content .list ul li {
+  width: 68%;
+  margin: 0 16% 28px;
+}
+#content .list ul li a h1 {
+  font-size: 15px;
+  line-height: 16px;
+  padding: 8px 6px 18px;
+}
+#content .list ul li a h1 span {
+  font-size: 17px;
+  line-height: 19px;
+}
+
+.options .tabmenu > ul li a {
+ width: 66px;
+ background-size: 55% auto;
+}
+.navgroup {
+  height: 140px;
+  max-width: 140px;
+  width: 140px;
+}
+.vol.vup::before {
+  left: -17px;
+  top: 14px;
+}
+.vol.vprev::before {
+  bottom: -34px;
+  left: 35px;
+}
+.vol.vnext::before {
+  right: 30px;
+  top: -33px;
+}
+.vol.vdown::before {
+  bottom: 17px;
+  right: -17px;
+}
+.navigation-inner {
+  height: 53px;
+  margin: 37px auto;
+  width: 38%;
+}
+.navigation-inner .stop-nav a {
+  height: 35px;
+  margin: 10px auto;
+  width: 35px;
+}
+.stop-nav img {
+  margin: 9px auto;
+}
+.navgroup .vol::before {
+  height: 91%;
+}
+.numberpad a.b {
+  left: 34%;
+  line-height: 35px;
+  width: 35px;
+  font-size: 25px;
+}
+.numberpad a.c {
+  left: 34%;
+  line-height: 35px;
+  width: 35px;
+  font-size: 25px;
+}
+.numberpad a.a {
+  left: 34%;
+  line-height: 35px;
+  width: 35px;
+  font-size: 25px;
+}
+.numberpad a.d {
+  left: 34%;
+  line-height: 35px;
+  width: 35px;
+  font-size: 25px;
+}
+.scroll {
+  padding: 15px 8px;
+}
+#slider-vertical .handle {
+  height: 14px;
+  left: -3px;
+  width: 14px;
+}
+
+}
+/* 280 */
+@media only screen and (max-width:279px){
+/*.options .tabmenu > ul li a {
+  padding: 40px 4% 0;
+  background-size: 38%;
+}*/
+#connect .heading, #remote .heading {
+  font-size: 18px;
+  margin-left:2px;
+}
+#connect .heading img, #remote .heading img {
+  margin-left: 0px;
+}
+#content .list ul li {
+  width: 98%;
+}
+}
+@media only screen and (max-width:220px){
+.options .tabmenu > ul li a {
+  padding: 40px 2% 0;
+}
+}
+@media only screen and (orientation:portrait){
+
+  /*#warning-message { display:block; }*/
+}
+@media only screen and (orientation:landscape){
+  /*#warning-message { display:none; }*/
+}
+
+/*css for whitescreen*/
+.whitescreen #header .logo {
+  padding: 5px;
+  width: 8%;
+}
+.whitescreen #remote .heading {
+  padding: 15px 0;
+  font-size: 19px;
+ }
+.whitescreen .headright {
+  margin: 11px 29px 11px 0;
+}
+.whitescreen  .headright > img {
+  width: 60%;
+}
+.whitescreen #remote .heading img {
+ 
+  width: 17%;
+}
+.whitescreen .logo > img {
+  vertical-align: middle;
+}
+.whitescreen .right .numberpad a {
+  float: left;
+  font-size: 16px;
+  left: inherit;
+  line-height: 29px;
+  margin-right: 5px;
+  margin-top: 15px;
+  position: inherit;
+  right: inherit;
+  top: inherit;
+  width: 9%;
+}
+.whitescreen .chanel {
+  bottom: 37%;
+  font-size: 40px;
+  left: 55%;
+  line-height: 40px;
+  width: 150px;
+}
+.whitescreen #slider-vertical .handle {
+  height: 13px;
+  left: -3px;
+  width: 13px;
+}
+.whitescreen .vol.vup {
+   margin-left: -39px;
+ 
+}
+.whitescreen #slider-vertical {
+  height: 110px;
+}
+.whitescreen .remoteinner .scroll {
+  margin-right: 5%;
+  height: 105px;
+  margin-top: 10px;
+  padding: 15px;
+
+}
+.whitescreen .navigation {
+  margin-top: 8px;
+}
+
+.whitescreen .navigation-inner {
+  height: 48px;
+  margin: 38px auto;
+  width: 36%;
+}
+.whitescreen .navgroup {
+  height: 136px;
+  width: 136px;
+}
+.whitescreen .navigation-inner .stop-nav a {
+  height: 30px;
+  margin: 9px auto;
+  width: 30px;
+}
+.whitescreen .vol.vup::before {
+  left: -12px;
+  top: 12px;
+}
+.whitescreen .navgroup .vol::before {
+  height: 100%;
+}
+.whitescreen .vol.vprev::before {
+  bottom: -48px;
+  left: 30px;
+}
+.whitescreen .vol.vnext::before {
+  right: 26px;
+  top: -12px;
+}
+.whitescreen .vol.vdown::before {
+  bottom: 20px;
+  right: 2px;
+}
+.whitescreen .stop-nav img {
+  margin: 8px auto;
+  width: 50%;
+}
+.whitescreen .navgroup .vol {
+  height: 39px;
+ }
+ 
+
+@media only screen and (max-width:799px){
+  .whitescreen  .vol.vnext {
+   right: -20px;
+   margin-top: -20px;
+   }
+   .whitescreen  .vol.vprev {
+      left: -22px;
+    margin-top: -23px;
+   }
+   .whitescreen .vol.vup::before {
+     left: 3px;
+      top: 13px;
+  }
+  .whitescreen .vol.vprev::before {
+     bottom: -37px;
+     left: 55px;
+   }
+  .whitescreen .vol.vnext::before {
+    right: 50px;
+    top: -33px;
+  }
+    .whitescreen .vol.vdown::before {
+    bottom: 16px;
+    right: 7px;
+  }
+  .whitescreen .right .numberpad a {
+    width: 8%;
+  }
+}
+ @media only screen and (max-width:767px){
+  .whitescreen .right .numberpad a {
+   width: 10%;
+  }
+  .whitescreen .vol.vup {
+   margin-left: -24px;
+  }
+  .whitescreen .vol.vprev {
+   left: -3px;
+   margin-top: -19px;
+ }
+ .whitescreen .vol.vnext {
+  margin-top: -20px;
+  right: -2px;
+}
+.whitescreen .vol.vup::before {
+  left: -12px;
+ }
+ .whitescreen .vol.vprev::before {
+  bottom: -34px;
+  left: 37px;
+}
+.whitescreen .vol.vnext::before {
+  right: 33px;
+ 
+}
+.whitescreen .vol.vdown::before {
+  bottom: 15px;
+  right: -12px;
+}
+.whitescreen .chanel {
+  bottom: 27%;
+ }
+}
+@media only screen and (max-width:359px){
+.whitescreen .chanel {
+    bottom: inherit;
+   font-size: 30px;
+    left: 51%;
+    line-height: 30px;
+    width: 100px;
+}
+.whitescreen .right .numberpad a {
+  font-size: 11px;
+  line-height: 18px;
+
+}
+}  
+@media only screen and (max-width:279px){
+.whitescreen .headright > img {
+  width: 39%;
+}
+.whitescreen #remote .heading {
+  font-size: 15px;
+  padding: 4px 7px;
+}
+.whitescreen .headright {
+  margin: 3px 22px 3px 0;
+}
+.whitescreen .headright > img {
+  width: 39%;
+}
+.whitescreen .right .numberpad a {
+  font-size: 8px;
+  line-height: 15px;
+  width: 12%;
+}
+.whitescreen .numberpad {
+  margin-left: 29px;
+}
+.whitescreen .chanel {
+  left: 37%;
+ top: 73%;
+ }
+}
+
+
+
+
+
+
+/*@media only screen and (max-width:1200px){
+  #project .auto-area{
+    overflow-y:scroll;
+    
+  }
+  ::-webkit-scrollbar{
+      width:0px;
+      background:transparent;
+    }
+  ::-webkit-scroolbar-thumb{
+    background: :#FF0000;
+  }
+  #product .left-area {
+  float: none;
+  width: 95%;
+  margin:0 auto;
+  height: auto;
+  overflow: hidden;
+ 
+}
+#product .right-area {
+  float: none;
+  width: 96%;
+  margin: 0 auto;
+  padding-top: 40px;
+  
+}
+
+}
+@media only screen and (max-device-width:1200px){
+  #project .auto-area{
+    overflow-y:scroll;
+    
+  }
+  ::-webkit-scrollbar{
+      width:0px;
+      background:transparent;
+    }
+  ::-webkit-scroolbar-thumb{
+    background: :#FF0000;
+  }
+  #product .left-area {
+  float: none;
+  width: 95%;
+  margin:0 auto;
+  height: auto;
+  overflow: hidden;
+ 
+}
+#product .right-area {
+  float: none;
+  width: 96%;
+  margin: 0 auto;
+  padding-top: 40px;
+  
+}
+
+}*/

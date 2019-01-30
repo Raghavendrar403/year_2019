@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<style>
+			body {
+				background-color: skyblue;	
+			}
+
+			h1 {
+				text-transform: uppercase;
+				font-size: 48px;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<% include partial/nav.ejs %>
+		<h1> Welcome to the Contact Page </h1>
+
+		<p> Thank you for contacting us Mr <%= data.who %> we will get back to you <%= data.email %> </p>
+	</body>
+</html>

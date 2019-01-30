@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<style>
+			body {
+				background-color: skyblue;	
+			}
+
+			h1 {
+				text-transform: uppercase;
+				font-size: 48px;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<% include partial/nav.ejs %>
+		<h1> Welcome to the Contact Page </h1>
+
+		<form id="form1" method="POST" action="/contact">
+			<label for="who">Enter name</label>
+			<input type="text" name="who" size=30></input>
+			<label for="email">Enter email</label>
+			<input type="text" name="email" size=50></input>
+			<label for="comments">Enter name</label>
+			<textarea id="comments" rows="4" cols="80"></textarea>
+			<input type="submit"></input>
+		</form>
+	</body>
+</html>
